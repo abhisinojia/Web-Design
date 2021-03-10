@@ -1,0 +1,173 @@
+/* tag styles */
+
+body{
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #f4f9f9;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 700;
+}
+
+h3{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+p{
+  color: #8f8f8f;
+}
+
+h2{
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
+  font-size: 300%;
+  line-height: 1.5;
+}
+
+.container-fluid{
+  padding: 7% 15%;
+}
+
+/* Title Section */
+
+#title .container-fluid{
+  background-color: #ff4646;
+  padding: 3% 15% 7%;
+}
+
+.navbar{
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+  font-size: 2.5rem;
+  font-family: "Ubuntu";
+  font-weight: 400;
+}
+
+.nav-link{
+  font-family: "Ubuntu";
+  font-weight: 300;
+  margin: 1rem;
+  font-size: 1.3rem;
+}
+
+.button{
+  margin: 15px;
+}
+
+.title-img{
+  width: 50%;
+  right: 30%;
+  transform: rotate(25deg);
+  position: absolute;
+}
+
+
+/* Features Section */
+
+#features{
+  position: relative;
+  /* z-index: 2; */
+  background-color: #fff;
+}
+
+
+.icons{
+  color: #ef8172;
+  margin-bottom: 1rem;
+
+}
+
+.icons:hover{
+  color: #ff4646;
+}
+
+.icon-content{
+  padding: 5%;
+}
+
+
+/* Testimonials Section */
+
+#testimonials{
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-image{
+  width: 15%;
+  margin: 20px;
+  border-radius: 100%;
+}
+
+#press{
+  background-color: #ef8172;
+  padding: 3%;
+  text-align: center;
+}
+
+.press-img{
+  width: 12%;
+  margin: 0px 20px 50px;
+}
+
+#pricing{
+  padding: 100px;
+}
+
+.price-col{
+  padding: 3% 3%;
+}
+
+/* cta Section */
+
+#cta{
+  background-color: #ff4646;
+  padding: 60px 50px;
+}
+
+/* Footer Section */
+
+#footer{
+  margin: 40px 40px 60px;
+}
+
+
+
+/* For Mobile-Phones */
+
+@media (max-width: 1028px) {
+
+  #title{
+    text-align: center;
+  }
+
+  .title-img{
+    position: static;
+    transform: rotate(0);
+  }
+
+  #features{
+    position: static;
+  }
+
+  h1{
+    font-size: 2.5rem;
+  }
+
+  h2{
+    font-size: 2rem;
+  }
+  h3{
+    font-size: 1rem;
+  }
+  .navbar-brand{
+    font-size: 2rem;
+  }
+}
